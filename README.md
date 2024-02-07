@@ -46,4 +46,34 @@
 # devdependencies
    -devDependencies are packages that are only needed during development or for building/testing purposes, but not in production.
 
+# Bundlers (e.g., webpack, Parcel):
+-Bundlers are tools that take multiple JavaScript files and their dependencies and bundle them together into a single file (or multiple files) for optimized delivery to the browser.
 
+# Transpilers (e.g., Babel):
+-Transpilers are tools that convert source code written in one programming language or version into another language or version. In the context of JavaScript development, transpilers are primarily used to convert modern JavaScript code (ES6+ syntax) into older versions of JavaScript (ES5) that are compatible with older browsers. 
+
+# React Element:
+-A React Element is a plain JavaScript object that represents a single node in the Virtual DOM tree.
+-React Elements are lightweight and immutable, meaning they cannot be modified once created.
+-You create React Elements using JSX syntax or React.createElement() function, specifying the type of element.
+
+# State:
+-State represents the internal data of a component that can change over time.
+-Unlike props, which are passed down from parent components and are immutable, state is managed internally by the component and can be modified using the setState() method.
+-Changes to the state trigger re-rendering of the component, updating the UI to reflect the new state.
+-State is typically initialized in the constructor of a class component or using the useState() hook in functional components.
+
+# Props:
+-Props (short for properties) are inputs to a component that are passed from its parent component.
+-Props allow you to customize the behavior and appearance of a component by passing data or functions as arguments.
+-Props are read-only and cannot be modified by the component itself. They are used to pass data from parent to child components.
+-In functional components, props are received as arguments to the component function. In class components, they are accessed using this.props.
+
+# Difference between React and ReactDOM
+-React is the core library for building user interfaces in React applications, providing features like component-based architecture, state management, and JSX syntax.
+-ReactDOM is a package specifically for interacting with the DOM, providing methods for rendering React components into the browser, hydrating server-rendered content, handling events, and 
+ more.
+
+
+
+ 
