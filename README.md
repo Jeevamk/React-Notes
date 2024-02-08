@@ -85,6 +85,11 @@ Module bundlers are the way to organize and combine many files of JavaScript cod
 
 -JSX is an Extension Syntax that allows writing HTML and Javascript together easily in React and is used to create React elements. These elements are then rendered to the React DOM. Each JSX element is just to make use of React easy and for calling React.createElement(component, props, …children) with less work. So, anything that is done with JSX can also be done with just plain JavaScript. So  JSX is not mandatory but is used for writing better and clean code instead of writing code using React.CreateElement.
 
+# Q: Is `ES6` mandatory for React?
+
+ES6 is not mandatory for `React` but is highly recommendable. The latest projects created on React rely a lot on ES6. React uses ES6, and you should be familiar with some of the new features like: Classes, Arrow Functions, Variables(let, const).
+ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015.
+
 
 
 
