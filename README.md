@@ -90,6 +90,11 @@ Module bundlers are the way to organize and combine many files of JavaScript cod
 ES6 is not mandatory for `React` but is highly recommendable. The latest projects created on React rely a lot on ES6. React uses ES6, and you should be familiar with some of the new features like: Classes, Arrow Functions, Variables(let, const).
 ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015.
 
+# Q: What is `<React.Fragment></React.Fragment>` and `<></>`?
+
+<React.Fragment></React.Fragment> is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.
+<></> is the shorthand tag for React.Fragment. The only difference between them is that the shorthand version does not support the key attribute.
+
 
 
 
