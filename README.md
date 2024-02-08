@@ -74,6 +74,14 @@
 -ReactDOM is a package specifically for interacting with the DOM, providing methods for rendering React components into the browser, hydrating server-rendered content, handling events, and 
  more.
 
+ # What is `Parcel/Webpack`? Why do we need it?
+
+-Parcel and webpack are the bundlers used mostly for JavaScript or Typescript code that helps you to minify, clean, and make your code compact so that it becomes easier to send a request or receive the response from the server when it usually takes you to transfer multiple files without using any bundler for loading the page of your application. Both of these bundlers substantially reduce the time it takes for the transfer of data and files to the server from the application. Along with that both bundlers parcel and webpack remove the unnecessary comments, new lines, any kind of block delimiters, and white spaces while the functionality of the code remains unchanged.
+
+-Use of Parcel/Webpack:
+Module bundlers are the way to organize and combine many files of JavaScript code into one file. A JavaScript bundler can be used when your project becomes too large for a single file or when you're working with libraries that have multiple dependencies.
+
+
 
 
  
