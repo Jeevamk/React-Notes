@@ -95,8 +95,10 @@ ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript, a
 <React.Fragment></React.Fragment> is a feature in React that allows you to return multiple elements from a React component by allowing you to group a list of children without adding extra nodes to the DOM.
 <></> is the shorthand tag for React.Fragment. The only difference between them is that the shorthand version does not support the key attribute.
 
+# Q: What are `React Hooks`?
 
-
+A: In React version 16.8, React introduced a new pattern called Hooks. React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component. Hooks can be stateful and can manage side-effects.
+Hooks allow you to reuse stateful logic without changing your component hierarchy. This makes it easy to share Hooks among many components or with the community.
 
 
  
