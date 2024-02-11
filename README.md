@@ -114,10 +114,10 @@ A: * Independent and reusable bit of code.
    * It accepet input as a props and return react element.
 
   2 types of components,
-    1) Class Components (state component)- * Components are defined as ES6 classes and provide life cycle methods and state.
-                          * It define a class that extends the base React.Component and impliments the `render()` method that `return` the markup of the component.
-    2) Function Components (stateless component) - It defined as js functions. It accept input as a props and return JSX.It do not have state.
-                                                   * After the introduction of hooks , which allow function component to have local state and access life cycle method.
+    1) Class Components (state component)- * Components are defined as ES6 classes and provide life cycle methods and state.<br>
+                          * It define a class that extends the base React.Component and impliments the `render()` method that `return` the markup of the component.<br>
+    2) Function Components (stateless component) - It defined as js functions. It accept input as a props and return JSX.It do not have state.<br>
+                                                   * After the introduction of hooks , which allow function component to have local state and access life cycle method.<br>
 
 
 
