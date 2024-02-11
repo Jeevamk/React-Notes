@@ -119,6 +119,12 @@ A: * Independent and reusable bit of code.
     2) Function Components (stateless component) - It defined as js functions. It accept input as a props and return JSX.It do not have state.<br>
                                                    * After the introduction of hooks , which allow function component to have local state and access life cycle method.<br>
 
+# Pure component
+- It is a specific implimentation of react component.<br>
+- It automatically impliment "shouldComponentUpdate()" method , with shallow comparison of state and props.If there are no change in shallow comparison it does not re render.<br>
+- Shallow comparison indicate that if there is no change in the props and states then react skip the rendering process of that component.<br>
+- It can improve the performance by preventing unnecessary re renders.
+
 
 
 
