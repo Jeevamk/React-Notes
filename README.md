@@ -105,6 +105,20 @@ Hooks allow you to reuse stateful logic without changing your component hierarch
 A: useState hook is used to maintain the state in our React application. It keeps track of the state changes so basically useState has the ability to encapsulate local state in a functional component.
 The useState hook is a special function that takes the initial state as an argument and returns an array of two entries. UseState encapsulate only singular value from the state, for multiple state need to have useState calls.
 
+# Q: Components
+A: * Independent and reusable bit of code.
+   * It is a (small chunk) part of user Interface in a webpage.
+   * Same purpose of js functions.
+   * It's primary job is render it's user interface and update whenever the internal state is changed.
+   * It manage events.
+   * It accepet input as a props and return react element.
+
+  2 types of components,
+    1) Class Components - Components are defined as ES6 classes and provide life cycle methods and state.
+    2) Function Components - It defined as js functions. It accept input as a props and return JSX.It do not have state.
+
+
+
 
 
  
