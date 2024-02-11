@@ -97,8 +97,9 @@ ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript, a
 
 # Q: What are `React Hooks`?
 
-A: In React version 16.8, React introduced a new pattern called Hooks. React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component.<<br<<beHooks can be stateful and can manage side-effects.
-Hooks allow you to reuse stateful logic without changing your component hierarchy. This makes it easy to share Hooks among many components or with the community.
+A: In React version 16.8, React introduced a new pattern called Hooks. React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component.<br>Hooks can be stateful and can manage side-effects.<br>
+Hooks allow you to reuse stateful logic without changing your component hierarchy. This makes it easy to share Hooks among many components or with the community.<br>
+-It access events and lifecycle methods to function components.
 
 # Q: Why do we need `useState Hook`?
 
