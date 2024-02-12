@@ -58,6 +58,8 @@
 -You create React Elements using JSX syntax or React.createElement() function, specifying the type of element.
 
 # Q: `State`:
+-<b>State is a javascript object that can store the data or information related to react component and it can used to store, manage and update the data within the application.<b><br>
+-It allow for dynamically changes the user interface.<br>
 -State represents the internal data of a component that can change over time.
 -Unlike props, which are passed down from parent components and are immutable, state is managed internally by the component and can be modified using the setState() method.
 -Changes to the state trigger re-rendering of the component, updating the UI to reflect the new state.
@@ -103,8 +105,12 @@ A: In React version 16.8, React introduced a new pattern called Hooks. React Hoo
 
 # Q: Why do we need `useState Hook`?
 
-A: useState hook is used to maintain the state in our React application. It keeps track of the state changes so basically useState has the ability to encapsulate local state in a functional component.
-The useState hook is a special function that takes the initial state as an argument and returns an array of two entries. UseState encapsulate only singular value from the state, for multiple state need to have useState calls.
+A:-It is used to create state variables.<br>
+-Whenever the state variable is update react will re-render the component.<br> 
+-useState hook is used to maintain the state in our React application. <br>
+-It keeps track of the state changes so basically useState has the ability to encapsulate local state in a functional component.<br>
+-The useState hook is a special function that takes the initial state as an argument and returns an array of two entries.<br>
+-UseState encapsulate only singular value from the state, for multiple state need to have useState calls.
 
 # Q: `Components`
 A: * Independent and reusable bit of code.
