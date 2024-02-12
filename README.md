@@ -108,6 +108,9 @@ A: In React version 16.8, React introduced a new pattern called Hooks. React Hoo
 A:-It is used to create state variables.<br>
 -Whenever the state variable is update react will re-render the component.<br> 
 -useState hook is used to maintain the state in our React application. <br>
+-It accept a initial state and return 2 values<br>
+         - Current value<br>
+         - Function that updated the state <br>
 -It keeps track of the state changes so basically useState has the ability to encapsulate local state in a functional component.<br>
 -The useState hook is a special function that takes the initial state as an argument and returns an array of two entries.<br>
 -UseState encapsulate only singular value from the state, for multiple state need to have useState calls.
