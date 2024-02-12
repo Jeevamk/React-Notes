@@ -137,6 +137,17 @@ A: * Independent and reusable bit of code.
  within the tree using the `Context.Consumer` component or the `useContext` hook.
 
 
+# Q: Types of hooks
+-useState()
+-useEffect()
+-useContext()
+-useRef()
+-useReducer()
+-useCallback()
+-useMemo()
+-custom hooks
+
+
 
 
 
