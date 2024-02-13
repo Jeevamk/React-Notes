@@ -115,6 +115,11 @@ A:-It is used to create state variables.<br>
 -The useState hook is a special function that takes the initial state as an argument and returns an array of two entries.<br>
 -UseState encapsulate only singular value from the state, for multiple state need to have useState calls.
 
+# Q:useEffect()
+ - It allow you to perform side effects in functional component.<br>
+ - It accept a function as it first argument and a optional array of dependencies as it second argument.<br>
+ - If any of the dependencies changes between the render, the effect will re run.If the array is omited , the effect runs after every render.
+
 # Q: `Components`
 A: * Independent and reusable bit of code.
    * It is a (small chunk) part of user Interface in a webpage.
