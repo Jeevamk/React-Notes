@@ -162,7 +162,15 @@ A: * Independent and reusable bit of code.
 -custom hooks
 
 
-
-
+# Q:`Life cycle method`
+- It is a custom functionality that get executed during a differnt phases of component.<br>
+- Class components have different lifecycle methods it called automatically at various points in a lifecycle method.<br>
+- 3 main phases are,<br>
+         * Mounting
+         * Updating
+         * Unmounting
+          
+# Q:Mounting phase:
+  -Component is created and inserted into the DOM.
 
  
