@@ -170,7 +170,12 @@ A: * Independent and reusable bit of code.
          * Updating
          * Unmounting
           
-# Q:Mounting phase:
-  -Component is created and inserted into the DOM.
+- Mounting phase:
+  - Component is created and inserted into the DOM.<br>
+- Updating phase:
+  - Component's state and porps are changed.<br>
+- Unmounting:
+  - Component is removed from the phase.
 
- 
+# Q: Outlet
+-It should be use in parent route to render the child route element.
