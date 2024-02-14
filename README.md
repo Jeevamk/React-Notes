@@ -182,3 +182,8 @@ A: * Independent and reusable bit of code.
 
 # Q: Outlet
 -It should be use in parent route to render the child route element.
+
+# Q: componentWillUpdate()
+-It just call before the component's update cycle starts.
+-It take nextprop and state as arguments and allow you to perform necessary action before component update.
+-But this method is not recommended for updating the state, as it can cause an infinite loop of rendering. It is primarily used for tasks such as making API calls, updating the DOM, or preparing the component to receive new data. componentWillUpdate() is often used in conjunction with componentDidUpdate() to handle component updates.
