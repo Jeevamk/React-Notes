@@ -161,6 +161,9 @@ A: * Independent and reusable bit of code.
 -useMemo()
 -custom hooks
 
+# useRef():
+- It is a hook that allow you to create a mutable reference to an element or value . unlike setState , updating a useref value does not trigger the re-render of the component. 
+
 
 # Q:`Life cycle method`
 - It is a custom functionality that get executed during a differnt phases of component.<br>
