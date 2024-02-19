@@ -13,8 +13,8 @@
 -SEO difficulties: Any web app is written in JavaScript loads data without reloading the page and only when the user requests it. This means there are no specific URLs optimized for search engines, and the content is not visible to search engines. The problem can only be solved by server-side rendering.
 
 # Q: `CDN` (Content Delivery Network/Content distribution network)
-- Distributed network of servers to deliver web content.
-- it is a URL that point to resoucers.
+- Distributed network of servers to deliver web content.<br>
+- it is a URL that point to resoucers.<br>
 - It is a website that already hosted by developers , as we need that we can fetch the content from that.
 
  # Q: `How CDN Works`
