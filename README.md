@@ -187,3 +187,6 @@ A: * Independent and reusable bit of code.
 -It just call before the component's update cycle starts.
 -It take nextprop and state as arguments and allow you to perform necessary action before component update.
 -But this method is not recommended for updating the state, as it can cause an infinite loop of rendering. It is primarily used for tasks such as making API calls, updating the DOM, or preparing the component to receive new data. componentWillUpdate() is often used in conjunction with componentDidUpdate() to handle component updates.
+
+# Q: React Fiber:
+- React fiber updating the react that make user interface more responsive . when a user interact with application , react fiber help in this interaction by breaking down tasks in to small chunks prioritizing what the more important and pausing and resuming work as needed .This means the app can respond quickly to your actions.
