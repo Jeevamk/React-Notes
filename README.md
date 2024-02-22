@@ -195,3 +195,24 @@ A: * Independent and reusable bit of code.
 - setState :  the setState() method is used to update a component's state. It's a built-in method provided by the Component class (or useState hook in functional components) and is the primary way to trigger a re-render of a component when its state changes.<br>
 - ForceUpdate : the forceUpdate() method is used to force a re-render of a component, regardless of whether its state or props have changed. This method should be used sparingly because it bypasses the usual React data flow and can lead to performance issues if overused.<br>
 - Key prop manipulation : the key prop is a special attribute used to uniquely identify elements in a collection of children components or elements. It's primarily used when rendering lists of components or elements to help React identify which items have changed, been added, or been removed. Manipulating the key prop directly is generally discouraged because React manages it internally to optimize re-rendering and reconciliation.
+<br>
+
+# Q:Route Componenet:
+Route Component: Instead of using Outlet, you can define specific routes using the Route component from React Router. Each Route component can render different components based on the URL path.<br>
+
+# Q :other methods to do Routing other than Outlet
+- Route Component: Instead of using Outlet, you can define specific routes using the Route component from React Router. Each Route component can render different components based on the URL path.<br>
+- Conditional Rendering: You can use regular conditional rendering based on the current URL or state to determine which component to render.<br>
+- Render Props: You can use the render prop of the Route component to conditionally render components based on the URL.<br>
+- Higher-Order Component (HOC): You can create a higher-order component that handles routing logic and conditionally renders components based on the URL.
+
+# Q: Difference bw anchor tag and Link component
+- Navigation Handling:<br>
+   * Anchor Tag (<a>): When you use an anchor tag (<a>), clicking on the link will trigger a full page reload by default, which is the default behavior of browsers for anchor tags. This means that the entire page is reloaded, and the JavaScript state of your React application is reset.<br>
+   * Link Component: The Link component from React Router, on the other hand, intercepts the click event and handles navigation internally without causing a full page reload. This allows for a single-page application (SPA) behavior, where only the relevant components are re-rendered, and the application state is preserved.<br>
+- Preventing Default Action:<br>
+   * Anchor Tag (<a>): To prevent the default behavior of the anchor tag (full page reload), you typically need to add an onClick event handler and call preventDefault() explicitly.<br>
+   * Link Component: The Link component automatically prevents the default action of clicking on a link, so you don't need to handle it manually.<br>
+- Integration with React Router:<br>
+   * Anchor Tag (<a>): When using anchor tags, you need to manually manage the URL paths and ensure they match the routes defined in React Router. This can lead to inconsistencies and bugs if not handled carefully.<br>
+   * Link Component: The Link component integrates seamlessly with React Router. It automatically generates the correct URLs based on the route configuration, reducing the risk of errors and making it easier to maintain.
