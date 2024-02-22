@@ -190,3 +190,8 @@ A: * Independent and reusable bit of code.
 
 # Q: React Fiber:
 - React fiber updating the react that make user interface more responsive . when a user interact with application , react fiber help in this interaction by breaking down tasks in to small chunks prioritizing what the more important and pausing and resuming work as needed .This means the app can respond quickly to your actions.
+
+# Q: Methods to re-render in React:
+- setState :  the setState() method is used to update a component's state. It's a built-in method provided by the Component class (or useState hook in functional components) and is the primary way to trigger a re-render of a component when its state changes.<br>
+- ForceUpdate : the forceUpdate() method is used to force a re-render of a component, regardless of whether its state or props have changed. This method should be used sparingly because it bypasses the usual React data flow and can lead to performance issues if overused.<br>
+- Key prop manipulation : the key prop is a special attribute used to uniquely identify elements in a collection of children components or elements. It's primarily used when rendering lists of components or elements to help React identify which items have changed, been added, or been removed. Manipulating the key prop directly is generally discouraged because React manages it internally to optimize re-rendering and reconciliation.
