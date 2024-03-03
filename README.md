@@ -46,10 +46,10 @@
 # Q: `devdependencies`
    -devDependencies are packages that are only needed during development or for building/testing purposes, but not in production.
 
-# Q: `Bundlers` (e.g., webpack, Parcel):
+# Q: `Bundlers` (e.g. webpack, Parcel):
 -Bundlers are tools that take multiple JavaScript files and their dependencies and bundle them together into a single file (or multiple files) for optimized delivery to the browser.
 
-# Q: `Transpilers` (e.g., Babel):
+# Q: `Transpilers` (e.g. Babel):
 -Transpilers are tools that convert source code written in one programming language or version into another language or version. In the context of JavaScript development, transpilers are primarily used to convert modern JavaScript code (ES6+ syntax) into older versions of JavaScript (ES5) that are compatible with older browsers. 
 
 # Q: `React Element`:
