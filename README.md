@@ -17,7 +17,7 @@
 - it is a URL that point to resoucers.<br>
 - It is a website that already hosted by developers , as we need that we can fetch the content from that.
 
- # Q: `How CDN Works`
+ # Q: `How CDN Works`?
 -When you visit a website, your browser sends a request to the website's server to retrieve the necessary files (HTML, CSS, JavaScript, images, etc.) to display the webpage.<br>
 -With a CDN in place, instead of fetching all the content from the original server, the request is routed to the nearest server within the CDN network.<br>
 -The CDN server caches (stores) copies of the website's content, so if another user requests the same content, it can be delivered quickly from the server closest to them.<br>
@@ -134,7 +134,7 @@ A: * Independent and reusable bit of code.
     2) Function Components (stateless component) - It defined as js functions. It accept input as a props and return JSX.It do not have state.<br>
                                                    * After the introduction of hooks , which allow function component to have local state and access life cycle method.<br>
 
-# Q: `Pure component`
+# Q: `Pure component`:
 - It is a specific implimentation of react component.<br>
 - It automatically impliment "shouldComponentUpdate()" method , with shallow comparison of state and props.If there are no change in shallow comparison it does not re render.<br>
 - Shallow comparison indicate that if there is no change in the props and states then react skip the rendering process of that component.<br>
