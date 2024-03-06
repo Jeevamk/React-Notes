@@ -5,11 +5,11 @@
 -Single-page Applications are perfect for creating dynamic, fast-loading websites, especially if you are designing to create a mobile app. The biggest downside of this model is that it has poor search engine optimization and is ranked lower in search engines. Therefore, it is ideal for social networks, private groups, and SaaS applications where SEO is not required. Gmail, Google Maps, Facebook, and GitHub are among the examples.<br>
 -Multi-Page Applications are valuable for online stores, catalogs, and commercial websites because they can handle large amounts of data that require several pages, features, and menus.
 
-# Q: What are the advantages of a single-page application?
+# Q: What are the advantages of a single-page application ?
 1) All webpage resources are loaded only once throughout the application because SPA is faster, and data is the sole resource that is sent.
 2) SPA effectively caches local storage because it sends only one request, retains all of the data, and uses it even when offline.
 
-# Q: Disadvantanges?
+# Q: Disadvantanges ?
 -SEO difficulties: Any web app is written in JavaScript loads data without reloading the page and only when the user requests it. This means there are no specific URLs optimized for search engines, and the content is not visible to search engines. The problem can only be solved by server-side rendering.
 
 # Q: `CDN` (Content Delivery Network/Content distribution network)
@@ -17,7 +17,7 @@
 - it is a URL that point to resoucers.<br>
 - It is a website that already hosted by developers , as we need that we can fetch the content from that.
 
- # Q: `How CDN Works`?
+ # Q: `How CDN Works` ?
 -When you visit a website, your browser sends a request to the website's server to retrieve the necessary files (HTML, CSS, JavaScript, images, etc.) to display the webpage.<br>
 -With a CDN in place, instead of fetching all the content from the original server, the request is routed to the nearest server within the CDN network.<br>
 -The CDN server caches (stores) copies of the website's content, so if another user requests the same content, it can be delivered quickly from the server closest to them.<br>
@@ -25,8 +25,8 @@
 
 # Q: `Npm`
 - Package manager.
-- it manages all the packages. (Packages itclude libraries and frameworks)
-- -It is default package manager of node.js
+- It manages all the packages. (Packages itclude libraries and frameworks)
+- It is default package manager of node.js
 
 # Q: `package.json`
   - It is a configuration of NPM
