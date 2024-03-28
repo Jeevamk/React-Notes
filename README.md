@@ -23,7 +23,7 @@
 -The CDN server caches (stores) copies of the website's content, so if another user requests the same content, it can be delivered quickly from the server closest to them.<br>
 -This reduces latency (the time it takes for content to load) because the data travels a shorter distance, resulting in faster loading times for users.
 
-# Q: `Npm`
+# Q: `Npm`:
 - Package manager.
 - It manages all the packages. (Packages itclude libraries and frameworks)
 - It is default package manager of node.js
