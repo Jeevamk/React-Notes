@@ -200,13 +200,13 @@ A: * Independent and reusable bit of code.
 # Q:Route Componenet:
 Route Component: Instead of using Outlet, you can define specific routes using the Route component from React Router. Each Route component can render different components based on the URL path.<br>
 
-# Q :other methods to do Routing other than Outlet
+# Q :other methods to do Routing other than Outlet :
 - Route Component: Instead of using Outlet, you can define specific routes using the Route component from React Router. Each Route component can render different components based on the URL path.<br>
 - Conditional Rendering: You can use regular conditional rendering based on the current URL or state to determine which component to render.<br>
 - Render Props: You can use the render prop of the Route component to conditionally render components based on the URL.<br>
 - Higher-Order Component (HOC): You can create a higher-order component that handles routing logic and conditionally renders components based on the URL.
 
-# Q: Difference bw anchor tag and Link component
+# Q: Difference bw anchor tag and Link component :
 - Navigation Handling:<br>
    * Anchor Tag (<a>): When you use an anchor tag (<a>), clicking on the link will trigger a full page reload by default, which is the default behavior of browsers for anchor tags. This means that the entire page is reloaded, and the JavaScript state of your React application is reset.<br>
    * Link Component: The Link component from React Router, on the other hand, intercepts the click event and handles navigation internally without causing a full page reload. This allows for a single-page application (SPA) behavior, where only the relevant components are re-rendered, and the application state is preserved.<br>
