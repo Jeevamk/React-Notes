@@ -31,7 +31,7 @@ A single-page application (SPA) is a webpage that dynamically interacts with the
 # Q: `package.json` :
   - It is a configuration of NPM
   - it is json format.
-  - It contain meta data about the project and dependencies
+  - It contain meta data about the project and dependencies.
   - It take on the versions.
   - One of the key sections of package.json is the "dependencies" object, which lists the packages that your project depends on to run correctly.
 
