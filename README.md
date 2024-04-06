@@ -25,11 +25,11 @@ A single-page application (SPA) is a webpage that dynamically interacts with the
 
 # Q: `Npm`:
 - Package manager.
-- It manages all the packages. (Packages itclude libraries and frameworks)
+- It manages all the packages (Packages itclude libraries and frameworks).
 - It is default package manager of node.js
 
 # Q: `package.json` :
-  - It is a configuration of NPM
+  - It is a configuration of NPM.
   - it is json format.
   - It contain meta data about the project and dependencies.
   - It take on the versions.
