@@ -69,7 +69,7 @@ A single-page application (SPA) is a webpage that dynamically interacts with the
 -Props (short for properties) are inputs to a component that are passed from its parent component.
 -Props allow you to customize the behavior and appearance of a component by passing data or functions as arguments.
 -Props are read-only and cannot be modified by the component itself. They are used to pass data from parent to child components.
--In functional components, props are received as arguments to the component function. In class components, they are accessed using this.props.
+-In functional components, props are received as arguments to the component function. In class components, they are accessed using this.props
 
 # Q: Difference between `React` and `ReactDOM`
 -React is the core library for building user interfaces in React applications, providing features like component-based architecture, state management, and JSX syntax.
