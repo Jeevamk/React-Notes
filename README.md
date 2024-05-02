@@ -14,7 +14,7 @@ A single-page application (SPA) is a webpage that dynamically interacts with the
 
 # Q: `CDN` (Content Delivery Network/Content distribution network):
 - Distributed network of servers to deliver web content.<br>
-- it is a URL that point to resoucers.<br>
+- It is a URL that point to resoucers.<br>
 - It is a website that already hosted by developers , as we need that we can fetch the content from that.
 
  # Q: `How CDN Works` ?
