@@ -8,7 +8,7 @@ A single-page application (SPA) is a webpage that dynamically interacts with the
 * Single-page Applications are perfect for creating dynamic, fast-loading websites, especially if you are designing to create a mobile app. The biggest downside of this model is that it has poor search engine optimization and is ranked lower in search engines. Therefore, it is ideal for social networks, private groups, and SaaS applications where SEO is not required. Gmail, Google Maps, Facebook, and GitHub are among the examples.<br>
 * Multi-Page Applications are valuable for online stores, catalogs, and commercial websites because they can handle large amounts of data that require several pages, features, and menus.
 
-# Q: What are the advantages of a single-page application ?
+# Q : What are the advantages of a single-page application ?
 1) All webpage resources are loaded only once throughout the application because SPA is faster, and data is the sole resource that is sent.
 2) SPA effectively caches local storage because it sends only one request, retains all of the data, and uses it even when offline.
 
