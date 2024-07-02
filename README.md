@@ -1,4 +1,4 @@
-# why to learn react ?
+# why to learn react?
 - Make easy to manage and build complex frontend.
 
 # Q : What is `SPA` (Single page application) :
