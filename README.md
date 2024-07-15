@@ -1,5 +1,5 @@
-# why to learn react?
-- Make easy to manage and build complex frontend.
+# Q: What is react ?
+React is a javascript library used to create interactive user interfaces.
 
 # Q : What is `SPA` (Single page application) :
 A single-page application (SPA) is a webpage that dynamically interacts with the web browser by rewriting the current web page with data from the webserver. As a result, the webpage does not reload during its execution and instead operates in a browser.
