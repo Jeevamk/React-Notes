@@ -1,4 +1,4 @@
-# Q: What is react ?
+# Q : What is react ?
 React is a javascript library used to create interactive user interfaces. Especially for creating single page application by using reusable components.
 
 # Q : What is `SPA` (Single page application) ?
