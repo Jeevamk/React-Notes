@@ -20,7 +20,7 @@ A single-page application (SPA) is a webpage that dynamically interacts with the
 - It is a URL that point to resoucers.<br>
 - It is a website that already hosted by developers , as we need that we can fetch the content from that.
 
- # Q: `How CDN Works` ?
+ # Q : `How CDN Works` ?
 -When you visit a website, your browser sends a request to the website's server to retrieve the necessary files (HTML, CSS, JavaScript, images, etc.) to display the webpage.<br>
 -With a CDN in place, instead of fetching all the content from the original server, the request is routed to the nearest server within the CDN network.<br>
 -The CDN server caches (stores) copies of the website's content, so if another user requests the same content, it can be delivered quickly from the server closest to them.<br>
