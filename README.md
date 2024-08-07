@@ -12,7 +12,7 @@ A single-page application (SPA) is a webpage that dynamically interacts with the
 1) All webpage resources are loaded only once throughout the application because SPA is faster, and data is the sole resource that is sent.
 2) SPA effectively caches local storage because it sends only one request, retains all of the data, and uses it even when offline.
 
-# Q: Disadvantanges ?
+# Q : Disadvantanges ?
 * SEO difficulties: Any web app is written in JavaScript loads data without reloading the page and only when the user requests it. This means there are no specific URLs optimized for search engines, and the content is not visible to search engines. The problem can only be solved by server-side rendering.
 
 # Q: `CDN` (Content Delivery Network/Content distribution network):
