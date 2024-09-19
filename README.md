@@ -263,3 +263,8 @@ export default function EmployeeRegForm() {
 In the above code, the email prop has not been passed to child component. So there won't be any re-renders for email prop change.
 
 In class components, the components extending React.PureComponent instead of React.Component become the pure components. When props or state changes, PureComponent will do a shallow comparison on both props and state by invoking shouldComponentUpdate() lifecycle method.
+
+# What is an event in React?
+- An event is an action that a user or system may trigger, such as pressing a key, a mouse click, etc.
+    * React events are named using camelCase, rather than lowercase in HTML.
+    * With JSX, you pass a function as the event handler, rather than a string in HTML.
